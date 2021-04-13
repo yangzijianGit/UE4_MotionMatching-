@@ -278,7 +278,7 @@ void UMotionField::RebakeMotionKeysInAnim(const int  FromSourceAnimation)
 		{
 			///////////////////////////EXTRACT MOTION KEY PART
 
-			bool CanKey = (AccumulatedTime >= 0.1f) && (AccumulatedTime <= (AnimLength - 0.1f));
+			bool CanKey = (AccumulatedTime >= 1.f) && (AccumulatedTime <= (AnimLength - 1.f));
 
 			if (CanKey)
 			{
