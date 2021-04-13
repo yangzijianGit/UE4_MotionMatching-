@@ -1,0 +1,9 @@
+Intermediate/
+*.log
+*.ini
+Saved/Crashes/
+UE_MotMatch/Binaries/
+UE_MotMatch/Plugins/MotionMatching/Binaries/Win64/UE4Editor.modules
+UE_MotMatch/Plugins/MotionMatching/Binaries/
+UE_MotMatch/.vs/
+UE_MotMatch/UE_MotMatch.sln
